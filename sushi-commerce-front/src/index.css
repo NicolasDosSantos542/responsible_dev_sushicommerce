@@ -1,0 +1,24 @@
+* {
+    text-decoration: none !important;
+    color: black;
+}
+
+h5 , span.h2, strike {
+    color: #dc3545 !important;
+}
+
+strike {
+    text-decoration: line-through !important;
+}
+
+span.align-bottom.ps-2, span.align-bottom {
+    color: white;
+}
+span.align-bottom.ps-2:hover, span.align-bottom:hover {
+    color: black;
+}
+
+
+label.font_montserrat.navBar_searchBar--label.ps-0.pe-0.pt-0.flex-nowrap, span.navBar_searchBar--labelSpan {
+    color: white;
+}

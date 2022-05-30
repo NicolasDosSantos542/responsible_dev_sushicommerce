@@ -1,5 +1,6 @@
 import React, {Component, Fragment} from 'react';
 import {Link} from "react-router-dom";
+import '../../index.css'
 import './mostSold.css'
 import {environement as Env} from "../../Environment/environment";
 
