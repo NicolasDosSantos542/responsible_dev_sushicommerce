@@ -1,0 +1,35 @@
+.box__seekBarCategory {
+    height: 7em;
+    /*min-width: 32em;*/
+    width: auto;
+    margin: 0em auto 1em auto;
+    padding: 1em 2em;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.07),
+    0 2px 4px rgba(0,0,0,0.07),
+    0 4px 8px rgba(0,0,0,0.07),
+    0 8px 16px rgba(0,0,0,0.07),
+    0 8px 16px rgba(0,0,0,0.07),
+    0 1px 2px rgba(0,0,0,0.07);
+}
+
+.seekBarCategory--title {
+    color: #f18701;
+}
+
+.btn-outline {
+    color: #f18701 !important;
+    border-color: #f18701  !important;
+}
+
+.btn-outline:hover {
+    color: #FFFFFF !important;
+    background-color: #EA5326 !important;
+}
+
+.box__category, .box__subCategory {
+    width: 15em;
+}
+
+.box__subCategory, .box__seek {
+    margin-left: 0.8em;
+}

@@ -1,0 +1,11 @@
+.orderShipped_data {
+    height: 30px;
+    width: 100%;
+}
+.orderShipped_data_bgColor:nth-child(2n-1) {
+    background-color: #DDF4FF;
+}
+
+.Admin_order_shipped {
+    margin-top: 30px;
+}

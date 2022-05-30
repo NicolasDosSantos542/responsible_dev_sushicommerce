@@ -1,0 +1,39 @@
+.Login_page{
+    background-image: linear-gradient(rgba(66, 76, 85, 0.5), rgba(66, 76, 85, 0.5)), url("../../Assets/tech.jpg") ;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+.Login_main {
+    border-radius: 10px;
+    background-color: #efefef;
+}
+.Login_input {
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid #424C55;
+    background-color: #efefef;
+}
+.Login_input:focus {
+    border-bottom: 1px solid #424C55;
+    background-color: #efefef;
+    outline: none;
+    box-shadow: none;
+}
+.Login_registerBtn {
+    color: #efefef;
+    background-color: #424C55;
+    text-decoration: none;
+    border-radius: 0 10px 0 10px;
+}
+.Login_registerBtn:hover {
+    color: #a2c8da;
+}
+.Login_input:-webkit-autofill,
+.Login_input:-webkit-autofill:hover,
+.Login_input:-webkit-autofill:focus,
+.Login_input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+    -webkit-text-fill-color: black !important;
+}

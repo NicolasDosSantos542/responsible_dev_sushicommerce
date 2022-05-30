@@ -1,0 +1,21 @@
+.AdminNavbar {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.NavBarAdmin_navLink {
+    padding: 30px;
+    border-radius: 50%;
+}
+
+.AdminNavbar_link_img {
+    width: 50px;
+}
+
+.NavBarAdmin_navLink:hover {
+    opacity: 0.4;
+}
+
+.NavBarAdmin_navLink:first-child{
+    background-color: #BFDEC9;
+}

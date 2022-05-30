@@ -1,0 +1,32 @@
+.link--modify, .link--delete, .link--subCategory, .link--select {
+  margin-left: 0.7em;
+}
+
+.icon--view, .icon--delete {
+    position: relative;
+    top:0.05em;
+    font-size: 20px;
+}
+
+.icon--subCategory, .icon--addCategory {
+    color: #2bf62b;
+}
+
+.icon--addCategory {
+    position: relative;
+    top: 0.1em;
+    left: 0.5em;
+    font-size: 28px;
+}
+
+.icon--view {
+    color: #444;
+}
+
+.icon--modify {
+    color: #F18701;
+}
+
+.icon--delete {
+    color: red;
+}

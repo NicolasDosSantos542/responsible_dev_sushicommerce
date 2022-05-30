@@ -1,0 +1,11 @@
+.orderPaid_data {
+    height: 30px;
+    width: 100%;
+}
+.orderpaid_data_bgColor:nth-child(2n-1) {
+    background-color: #BFDEC9;
+}
+
+.Admin_order_paid {
+    margin-top: 30px;
+}

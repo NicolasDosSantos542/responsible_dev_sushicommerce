@@ -1,0 +1,81 @@
+.Register_page{
+    background-image: linear-gradient(rgba(66, 76, 85, 0.5), rgba(66, 76, 85, 0.5)), url("../../Assets/tech.jpg") ;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-color: rgba(66, 76, 85, 0.5);
+}
+.Register_main {
+    border-radius: 10px;
+}
+.Register_connectBtn {
+    color: #424C55;
+    background-color: #efefef;
+    text-decoration: none;
+    border-radius: 10px 0 10px 0;
+}
+
+.Register_connectBtn:hover {
+    color: #a2c8da;
+}
+
+.Register_input {
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid white ;
+    background-color: #424C55;
+    color: #efefef;
+}
+.Register_input:focus {
+    outline: none;
+    box-shadow: none;
+    background-color: #424C55;
+    border-bottom: 1px solid white;
+}
+.form-control.is-invalid:focus, .was-validated .form-control:invalid:focus {
+    box-shadow: none;
+}
+.form-control.is-valid:focus, .was-validated .form-control:valid:focus {
+    box-shadow: none;
+}
+#Register_birth::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+    padding-right: 40px;
+    padding-bottom: 15px;
+}
+#Register_GenderInput--style input[type='radio']:after {
+    width: 18px;
+    height: 18px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: white;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+#Register_GenderInput--style input[type='radio']:checked:after {
+    width: 18px;
+    height: 18px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: rgba(73, 89, 91, 0.99);
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+/* Navigateur */
+
+.Register_input:-webkit-autofill,
+.Register_input:-webkit-autofill:hover,
+.Register_input:-webkit-autofill:focus,
+.Register_input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+    -webkit-text-fill-color: #fff !important;
+}

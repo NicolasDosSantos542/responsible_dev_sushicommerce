@@ -1,0 +1,61 @@
+.navBar_searchBar--label {
+    font-size: 20px;
+}
+
+.navBar_searchBar {
+    width: 58vw;
+    background-color: rgba(255, 255, 255, 0);
+    border: 0;
+    border-radius: 0;
+    border-bottom: 2px solid #efefef;
+}
+
+.navBar_searchBar:focus {
+    background-color: rgba(255, 255, 255, 0);
+    outline: none;
+    box-shadow: none;
+    border-bottom: 2px solid #efefef;
+    color: white;
+}
+.navBar_logo {
+    width: 200px
+}
+.navBar_Image--size{
+    width: 50px
+}
+
+.navBar_menuIcon {
+    width: 50px;
+}
+
+.sousNavTemporaire {
+    height: 3vh;
+}
+.navBar_link--title {
+    display: none;
+}
+.navBar_link--image {
+    display: block;
+}
+/* Responsive */
+@media (max-width: 1200px) {
+    .navBar_link--title {
+        display: contents;
+    }
+    .navBar_link--image {
+        display: none;
+    }
+}
+@media (max-width: 992px) {
+    .navBar_searchBar {
+        width: 90vw;
+    }
+    .navBar_searchBar--labelSpan{
+        display: none;
+    }
+}
+@media (max-width: 768px) {
+    .navBar_searchBar {
+        width: 90vw;
+    }
+}

@@ -1,0 +1,19 @@
+.title--compare {
+
+}
+
+.arrow--compare {
+    padding-top: 0.2em;
+    padding-left: 0.4em;
+}
+
+.old--value {
+    padding-left: 1em;
+    color: red;
+    font-style: italic;
+}
+
+.new--value {
+    color: #09de09;
+    font-weight: bold;
+}

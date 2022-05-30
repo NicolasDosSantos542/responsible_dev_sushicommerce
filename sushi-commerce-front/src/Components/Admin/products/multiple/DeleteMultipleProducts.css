@@ -1,0 +1,9 @@
+.icon--check {
+    font-size: 25px;
+}
+
+.box__check {
+    display: flex;
+    justify-content: center;
+    margin-left: 0.8em;
+}

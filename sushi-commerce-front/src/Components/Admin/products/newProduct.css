@@ -1,0 +1,90 @@
+.NewProduct_create_btn {
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.icon--availableP {
+    font-size: 25px !important;
+}
+
+.icon--availableP:hover {
+    cursor: pointer;
+}
+
+.required {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.add--pictures {
+    font-size: 24px;
+    padding-left: 0.5em;
+}
+
+.add--pictures:hover {
+    color: #057605 !important;
+    cursor: pointer;
+}
+
+.little--picture {
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    /*margin: 1em 0.9em 0.5em 0.9em;*/
+    height: 6em;
+}
+
+.box__quantity {
+    margin-right: 11%;
+}
+
+.icon--add, .icon--less {
+    font-size: 14px;
+}
+
+.icon--less {
+    position: relative;
+    bottom: 0.1em;
+}
+
+.icon--add {
+    color: #159a15;
+}
+
+#modalDeduce {
+    position: fixed;
+    top: 40vh;
+}
+
+.modal--deduce, .modal--add {
+    background: none;
+    border: none;
+}
+
+.modal--add {
+    padding: 0;
+}
+
+.box__nbr {
+    margin: 0 auto 0 auto;
+    width: 60%;
+}
+
+.quantityToDeduce {
+    color: red;
+}
+
+.quantityToAdd {
+    color: #159a15;
+}
+
+.quantity--actual {
+    font-weight: bold;
+    color: #159a15;
+}
+
+.btn--submit {
+    width: 40%;
+    margin: 1em auto 0 auto;
+}

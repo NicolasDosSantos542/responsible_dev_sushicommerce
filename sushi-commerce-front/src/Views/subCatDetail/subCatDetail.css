@@ -1,0 +1,22 @@
+.subCatDetail_item {
+    border: #d7d7d7 1px solid;
+}
+.subCatDetail_breadcrumb {
+    border-bottom: #d7d7d7 1px solid;
+}
+.subCatDetail_LinkBreadcrumb {
+    text-decoration: none;
+    color: black;
+}
+.subCatDetail_LinkBreadcrumb:hover {
+    transition: 200ms ease-in-out;
+    color: skyblue;
+}
+.subCatDetail_Link {
+    text-decoration: none;
+    color: black;
+}
+.subCatDetail_Link:hover {
+    transition: 300ms ease-in-out;
+    color: #444343;
+}

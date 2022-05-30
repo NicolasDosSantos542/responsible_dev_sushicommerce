@@ -1,0 +1,38 @@
+.ManageOne--img {
+    width: 40%;
+
+}
+
+.ManageOne__delete_articles {
+    float: right;
+}
+
+.articles__box {
+    border: 1px solid #707f82;
+    padding: 10px;
+    background-color: white;
+}
+
+.ManageOne__articles_container {
+    padding: 30px;
+}
+
+#btn__delete_article {
+    border: none;
+    background-color: transparent;
+    color: red;
+    float: right;
+}
+
+#ManageOne_form input {
+    background-color: white;
+}
+
+
+#ManageOne_form {
+    border: 1px solid #707f82;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 50px;
+}
