@@ -16,8 +16,8 @@ if os.path.exists('images'):
 os.mkdir('images')
 
 def resizeImage(image, scale_percent):    
-    image="images/0/in2000918402@2x.jpg"
-    scale_percent = 10 # percent of original size
+    # image="images/0/in2000918402@2x.jpg"
+    # scale_percent = 10 # percent of original size
     img = cv2.imread(image, cv2.IMREAD_UNCHANGED)
     print('Original Dimensions : ',img.shape)
     
@@ -50,7 +50,7 @@ def doYourThingWithTheImage(value,folderNumber, string=""):
 
 
 # Opening JSON file
-f = open('fakers/products_data.json')
+f = open('fakers/products_data.json',"r")
   
 # returns JSON object as 
 # a dictionary
@@ -63,16 +63,21 @@ for object in data:
     os.mkdir('images/' + str(x))
     for key, value in object.items():
         folderNumber = str(x)
-        # if key== "pictures":
-        #     for element in value:
-        #         # print(element)
-        #         for newKey,newValue in element.items():
-        #             folder = folderNumber + "/" + "small"
-        #             doYourThingWithTheImage(newValue,folderNumber, "_picture")
+        if key== "pictures":
+            i=0
+            for element in value:
+                # print(element)
+                for newKey,newValue in element.items():
+                    folder = folderNumber + "/" + "small"
+                    newPath = doYourThingWithTheImage(newValue,folderNumber, "_small")
+                    data[x]["pictures"][i]["url"] = newPath
+                    print(i)
+                    resizeImage(newPath, 30)
+                    i = i+1
 
 
         if key == "bigPicture":
-            newPath = doYourThingWithTheImage(value,folderNumber, "_big")
+            newPath = doYourThingWithTheImage(value,folderNumber, "_small")
             value=newPath
             data[x]['bigPicture']= newPath
             print(key, value)
@@ -80,9 +85,15 @@ for object in data:
     x=x+1           
   
 # Closing file
+f.close()
+
+#save in file
 json_object = json.dumps(data, indent = 4)
 print(json_object)
-# with f as outfile:
-    # f.write(json.dumps(json_object))
-f.close()
-print(x)
+file = open('fakers/products_data.json',"w")
+file.write(json_object)
+
+
+# ending script
+print("end")
+exit()
