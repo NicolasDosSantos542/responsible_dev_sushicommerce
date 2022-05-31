@@ -70,7 +70,7 @@ for object in data:
                 for newKey,newValue in element.items():
                     folder = folderNumber + "/" + "small"
                     newPath = doYourThingWithTheImage(newValue,folderNumber, "_small")
-                    data[x]["pictures"][i]["url"] = newPath
+                    data[x]["pictures"][i]["url"] = "/" + newPath
                     print(i)
                     resizeImage(newPath, 30)
                     i = i+1
@@ -79,7 +79,7 @@ for object in data:
         if key == "bigPicture":
             newPath = doYourThingWithTheImage(value,folderNumber, "_small")
             value=newPath
-            data[x]['bigPicture']= newPath
+            data[x]['bigPicture']=  "/" + newPath
             print(key, value)
 
     x=x+1           
