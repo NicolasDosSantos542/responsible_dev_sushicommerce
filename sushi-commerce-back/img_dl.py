@@ -73,11 +73,16 @@ for object in data:
 
         if key == "bigPicture":
             newPath = doYourThingWithTheImage(value,folderNumber, "_big")
-            print(value)
+            value=newPath
+            data[x]['bigPicture']= newPath
+            print(key, value)
 
     x=x+1           
   
 # Closing file
-
+json_object = json.dumps(data, indent = 4)
+print(json_object)
+# with f as outfile:
+    # f.write(json.dumps(json_object))
 f.close()
 print(x)
