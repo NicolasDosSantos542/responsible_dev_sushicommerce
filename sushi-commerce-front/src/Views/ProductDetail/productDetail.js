@@ -1,6 +1,5 @@
 import React, {Component, Fragment} from "react";
 import {Link} from "react-router-dom";
-import './productDetail.css'
 import {Image, ImageGroup} from 'react-fullscreen-image'
 import axios from "axios";
 
