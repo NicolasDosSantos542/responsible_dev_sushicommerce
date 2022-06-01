@@ -21,7 +21,7 @@ const ProductsSchema = new mongoose.Schema({
         required: true
     },
     bigPicture: {
-        type: String,
+        type: Object,
     },
     pictures: {
         type: Array
