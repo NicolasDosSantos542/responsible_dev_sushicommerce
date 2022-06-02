@@ -50,7 +50,7 @@ export var mostSold =
                 category: "Composant",
                 subCategory: "Carte Graphique",
                 description: "Carte graphique PCI-Express overclockée - Refroidissement semi-passif (mode 0 dB) - Avec backplate - Compatible VR",
-                bigPicture: "https://www.topachat.com/boutique/img/in/in2000/in20009184/in2000918402@2x.jpg",
+                bigPicture: "https://lemagdesanimaux.ouest-france.fr/images/dossiers/2020-09/elever-poussin-080016.jpg",
                 events: {
                     new: true,
                     discount: 10,

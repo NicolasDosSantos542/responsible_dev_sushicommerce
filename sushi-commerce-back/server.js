@@ -40,7 +40,7 @@ app.use('/shippingFee', ShippingFeesRoutes);
 
 // DB
 let mongoose = require('mongoose');
-let mongoDB = 'mongodb://127.0.0.1/Suhi-commerce';
+let mongoDB = 'mongodb://mongodb:27017/Suhi-commerce';
 
 mongoose.set('useCreateIndex', true)
 mongoose.set('useFindAndModify', false);
