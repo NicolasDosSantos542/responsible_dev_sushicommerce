@@ -1,9 +1,9 @@
 import React, {Component, Fragment} from 'react';
 import {Link} from "react-router-dom";
-import logoBigWhite from "../../../Assets/logo-big-white.png"
-import menuImage from "../../../Assets/menu.png"
-import userImage from "../../../Assets/utilisateur.png"
-import cartImage from "../../../Assets/panier.png"
+import logoBigWhite from "../../../Assets/logo-big-white.webP"
+import menuImage from "../../../Assets/menu.webP"
+import userImage from "../../../Assets/utilisateur.webP"
+import cartImage from "../../../Assets/panier.webP"
 import './navbar.css';
 import axios from "axios";
 import Cart from "../Cart/cart"

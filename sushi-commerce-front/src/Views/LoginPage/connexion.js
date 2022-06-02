@@ -1,7 +1,7 @@
 import React, {Component, Fragment} from 'react';
 import './connexion.css';
 import {Link} from "react-router-dom";
-import logoBigBlack from '../../Assets/logo-big-white.png';
+import logoBigBlack from '../../Assets/logo-big-white.webP';
 import Flash from "../../Components/Flash/flash";
 
 const Environement = require('../../Environment/environment')
