@@ -6,7 +6,7 @@
 
 # GO TO FRONT APP
 ```bash
-  cd  sushi-commerce-front
+  cd sushi-commerce-front
 ```
 
 # LAUNCH BUILD
