@@ -6,6 +6,7 @@ exports.getAllSubCategory = async (req, res) => {
 
     try {
         let allSubCategory = await subCategoryService.getAllSubCategory();
+        res.set('Cache-Control', 'public, max-age=87000');//87000 = one day, 31557600 = one year
         res.status(200);
         res.send(allSubCategory);
     } catch (e) {
@@ -20,6 +21,7 @@ exports.getAllSubCategory = async (req, res) => {
 exports.getOneSubCategory = async (req, res) => {
     try {
         let oneSubCategory = await subCategoryService.getOneSubCategory(req.params);
+        res.set('Cache-Control', 'public, max-age=87000');//87000 = one day, 31557600 = one year
         res.status(200);
         res.send(oneSubCategory);
     } catch (e) {

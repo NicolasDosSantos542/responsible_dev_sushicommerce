@@ -6,6 +6,7 @@ const CategoryService = require('../services/category.service')
 exports.getAllCategory = async (req, res) => {
     try {
         let allCategory = await CategoryService.getAllCategory();
+        res.set('Cache-Control', 'public, max-age=87000');//87000 = one day, 31557600 = one year
         res.status(200);
         res.send(allCategory);
     } catch (e) {
@@ -20,6 +21,7 @@ exports.getAllCategory = async (req, res) => {
 exports.getOneCategory = async (req, res) => {
     try {
         let oneCategory = await CategoryService.getOneCategory(req.params);
+        res.set('Cache-Control', 'public, max-age=87000');//87000 = one day, 31557600 = one year
         res.status(200);
         res.send(oneCategory);
     } catch (e) {

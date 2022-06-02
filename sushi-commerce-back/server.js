@@ -1,4 +1,5 @@
 let express = require('express');
+let compression = require('compression')
 let path = require('path');
 let cookieParser = require('cookie-parser');
 const bodyParser = require('body-parser');
@@ -19,6 +20,7 @@ let ShippingFeesRoutes = require('./routes/shippingFees.routes');
 // -----
 
 let app = express();
+app.use(compression());
 app.use(logger('dev'));
 app.use(express.json());
 app.use(cookieParser());

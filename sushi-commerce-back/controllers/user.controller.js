@@ -155,6 +155,7 @@ exports.updateBirth = async (req, res) => {
 }
 exports.allUser = async (req, res) => {
     try {
+        res.set('Cache-Control', 'public, max-age=87000');//87000 = one day, 31557600 = one year
         res.status(200);
         res.send(
             await UserService.allUser()
