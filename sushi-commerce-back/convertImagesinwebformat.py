@@ -5,7 +5,7 @@ ImageFile.LOAD_TRUNCATED_IMAGES = True
 
 
 
-def convertImageJpegToWebP(image):
+def convertfileToWebP(image):
 
     im = Image.open(image)
     destination=image[0:-4] + ".webP"
@@ -15,7 +15,7 @@ def convertImageJpegToWebP(image):
 imageList = os.listdir("Assets")
 for image in imageList:
     imagePath="Assets/"+image
-    convertImageJpegToWebP(imagePath)
+    convertfileToWebP(imagePath)
     os.remove(imagePath)
 
 print(imageList)

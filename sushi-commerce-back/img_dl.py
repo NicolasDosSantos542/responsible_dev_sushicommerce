@@ -69,7 +69,7 @@ def downloadImage(url, x ):
     open(filename, 'wb').write(r.content)
     return filename
 
-def convertImageJpegToWebP(image):
+def convertfileToWebP(image):
     im = Image.open(image)
     destination=image[0:-4] + ".webP"
     im.save(destination, format="webp")
@@ -77,7 +77,7 @@ def convertImageJpegToWebP(image):
  
 
 def compressImageAndSaveItWithNewName(image, compressionParameters, string):
-    tochange = convertImageJpegToWebP(image)
+    tochange = convertfileToWebP(image)
     resizeImage(tochange, compressionParameters['width'], compressionParameters['height'])
     lastName = renameImage(tochange, string)
     return lastName
