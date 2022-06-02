@@ -89,7 +89,7 @@ export default class MostSold extends Component {
                     <Link className="col-2 subCatDetail_Link" to={"/produit/" + item._id} key={index}>
                         <div className="row p-2 justify-content-center">
                             {this.displayBadgeProduct(item.events)}
-                            <img src={item.bigPicture} className="img-fluid" style={{"width": "80%"}} alt={item.name}/>
+                            <img src={item.bigPicture.mini} className="img-fluid" style={{"width": "80%"}} alt={item.name}/>
                             <div>{item.name}</div>
                             <div className="text-center text-danger h5">{this.displayPrice(item).toFixed(2)} €</div>
                         </div>
