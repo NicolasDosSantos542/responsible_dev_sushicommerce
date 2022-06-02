@@ -6,7 +6,8 @@
     "test": "jest",
     "product faker": " node fakers/product.faker.js ",
     "users faker": " node fakers/users.faker.js ",
-    "swagger": "node swagger.js"
+    "swagger": "node swagger.js",
+    "dev": "nodemon -L src/index.js"
   },
   "author": "sushi-team",
   "dependencies": {

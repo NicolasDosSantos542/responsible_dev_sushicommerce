@@ -1,0 +1,58 @@
+version: '3.8'
+
+services:
+  mongodb:
+    image: mongo:5.0.2
+    #restart: unless-stopped
+    env_file: ./.env
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=
+      - MONGO_INITDB_ROOT_PASSWORD=
+      - MONGO_INITDB_DATABASE=Suhi-commerce
+    ports:
+      - 27017:27017
+    volumes:
+      - db:/data/db
+    networks:
+      - backend
+
+  sushi-api:
+    depends_on:
+      - mongodb
+    build:
+      context: sushi-commerce-back
+      dockerfile: Dockerfile
+    #restart: unless-stopped
+    env_file: ./.env
+    ports:
+      - 4244:4244
+    environment:
+      - DB_HOST=Suhi-commerce
+      - DB_USER=
+      - DB_PASSWORD=
+      - DB_NAME=Suhi-commerce
+      - DB_PORT=27017
+    networks:
+      - backend
+      - frontend
+
+  sushi-front:
+    depends_on:
+      - sushi-api
+    build:
+      context: sushi-commerce-front
+      dockerfile: Dockerfile
+    ports:
+      - 80:80
+      - 443:443
+    networks:
+      - frontend
+
+volumes:
+  db:
+
+networks:
+  backend:
+  frontend:
+
+
