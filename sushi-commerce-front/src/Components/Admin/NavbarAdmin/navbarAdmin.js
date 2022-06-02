@@ -2,11 +2,11 @@ import React from "react";
 import {Component, Fragment} from "react";
 import {Link} from "react-router-dom";
 import './navbarAdmin.css';
-import articleIcone from "../../../Assets/article.png"
-import labelIcone from "../../../Assets/label.png"
-import orderIcone from "../../../Assets/shopping-bag.png"
-import userIcone from "../../../Assets/user.png";
-import homeIcone from "../../../Assets/home.png"
+import articleIcone from "../../../Assets/article.webP"
+import labelIcone from "../../../Assets/label.webP"
+import orderIcone from "../../../Assets/shopping-bag.webP"
+import userIcone from "../../../Assets/user.webP";
+import homeIcone from "../../../Assets/home.webP"
 import GetStockOut from "../GetStockOut/getStockOut";
 
 export default class NavbarAdmin extends Component{

@@ -176,7 +176,7 @@ export default class ChangeProduct extends Component {
     render() {
         let imageList = [];
         let Avis = [];
-        let product = "";
+        let product = {};
         let subCat = "";
         let Cat = "";
         if (this.state.product) {
@@ -185,7 +185,7 @@ export default class ChangeProduct extends Component {
                 imageList = product.pictures.map((item, index) => {
                     return (
                         <li key={index}>
-                            <Image src={item.url}/>
+                            <Image src={item.maxi}/>
                         </li>
                     )
                 })
@@ -200,6 +200,9 @@ export default class ChangeProduct extends Component {
                     )
                 })
             }
+            // if(product.bigPicture){
+            //     bigPicture=
+            // }
         }
         // console.log(this.state.descCat)
         if (this.state.descCat) {
@@ -211,6 +214,7 @@ export default class ChangeProduct extends Component {
 
             }
         }
+        console.log(product)
         return (
             <Fragment>
                 <div className="container-fluid mt-3">

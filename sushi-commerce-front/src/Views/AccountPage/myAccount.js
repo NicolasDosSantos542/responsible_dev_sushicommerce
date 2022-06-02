@@ -89,7 +89,7 @@ class MyAccount extends Component {
                                     <div className="myAccount_me global_fontColor--whiteSmoke text-center">Nom Prénom</div>
                                     <div className="row justify-content-center">
                                         <button className=" btn btn-default text-center text-danger mb-2" onClick={this.handleDisconnect}>
-                                            <img src={process.env.PUBLIC_URL + '/assets/icons8-fermer-96.png'} alt="Boutton de déconnection" className="myAccount_img--disconnect global_fontColor--whiteSmoke"/>
+                                            <img src={process.env.PUBLIC_URL + '/assets/icons8-fermer-96.webP'} alt="Boutton de déconnection" className="myAccount_img--disconnect global_fontColor--whiteSmoke"/>
                                             Me déconnecter
                                         </button>
                                     </div>

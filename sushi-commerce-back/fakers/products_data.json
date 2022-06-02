@@ -4,22 +4,30 @@
         "name": "GeForce RTX 3080 Ti GAMING X TRIO",
         "brand": "MSI",
         "description": "Carte graphique PCI-Express overclock\u00e9e - Refroidissement semi-passif (mode 0 dB) - Avec backplate - Compatible VR",
-        "bigPicture": "/images/0/in2000918402@2x_small.webP",
+        "bigPicture": {
+            "mini": "/images/0/in2000918402@2x_miniature.webP",
+            "maxi": "/images/0/in2000918402@2x_fulscreen.webP"
+        },
         "pictures": [
             {
-                "url": "/images/0/01_small.webP"
+                "mini": "/images/0/01_miniature.webP",
+                "maxi": "/images/0/01_miniature.webP"
             },
             {
-                "url": "/images/0/02_small.webP"
+                "mini": "/images/0/02_miniature.webP",
+                "maxi": "/images/0/02_miniature.webP"
             },
             {
-                "url": "/images/0/03_small.webP"
+                "mini": "/images/0/03_miniature.webP",
+                "maxi": "/images/0/03_miniature.webP"
             },
             {
-                "url": "/images/0/05_small.webP"
+                "mini": "/images/0/05_miniature.webP",
+                "maxi": "/images/0/05_miniature.webP"
             },
             {
-                "url": "/images/0/06_small.webP"
+                "mini": "/images/0/06_miniature.webP",
+                "maxi": "/images/0/06_miniature.webP"
             }
         ],
         "events": {
@@ -36,22 +44,30 @@
         "name": "PowerColor Radeon RX 6900 XT Red Devil",
         "brand": "AMD",
         "description": "Carte graphique PCI-Express overclock\u00e9e - Refroidissement semi-passif (mode 0 dB) - Avec backplate - Compatible VR",
-        "bigPicture": "/images/1/in2000680002@2x_small.webP",
+        "bigPicture": {
+            "mini": "/images/1/in2000680002@2x_miniature.webP",
+            "maxi": "/images/1/in2000680002@2x_fulscreen.webP"
+        },
         "pictures": [
             {
-                "url": "/images/1/03b_small.webP"
+                "mini": "/images/1/03b_miniature.webP",
+                "maxi": "/images/1/03b_miniature.webP"
             },
             {
-                "url": "/images/1/04b_small.webP"
+                "mini": "/images/1/04b_miniature.webP",
+                "maxi": "/images/1/04b_miniature.webP"
             },
             {
-                "url": "/images/1/05b_small.webP"
+                "mini": "/images/1/05b_miniature.webP",
+                "maxi": "/images/1/05b_miniature.webP"
             },
             {
-                "url": "/images/1/05b_small.webP"
+                "mini": "/images/1/05b_miniature.webP",
+                "maxi": "/images/1/05b_miniature.webP"
             },
             {
-                "url": "/images/1/06b_small.webP"
+                "mini": "/images/1/06b_miniature.webP",
+                "maxi": "/images/1/06b_miniature.webP"
             }
         ],
         "events": {
@@ -68,16 +84,22 @@
         "name": "Asus GeForce GT 1030 2G-BRK",
         "brand": "ASUS",
         "description": "Carte graphique PCI-Express overclock\u00e9e",
-        "bigPicture": "/images/2/in2000675802_small.webP",
+        "bigPicture": {
+            "mini": "/images/2/in2000675802_miniature.webP",
+            "maxi": "/images/2/in2000675802_fulscreen.webP"
+        },
         "pictures": [
             {
-                "url": "/images/2/02_small.webP"
+                "mini": "/images/2/02_miniature.webP",
+                "maxi": "/images/2/02_miniature.webP"
             },
             {
-                "url": "/images/2/03_small.webP"
+                "mini": "/images/2/03_miniature.webP",
+                "maxi": "/images/2/03_miniature.webP"
             },
             {
-                "url": "/images/2/04_small.webP"
+                "mini": "/images/2/04_miniature.webP",
+                "maxi": "/images/2/04_miniature.webP"
             }
         ],
         "events": {
@@ -94,10 +116,14 @@
         "name": "Crucial MX500 1 To",
         "brand": "CRUCIAL",
         "description": "SSD 2.5\" - SATA III - Contr\u00f4leur Silicon Motion SM2258 - Lecture max : 560 Mo/s - Ecriture max : 510 Mo/s - M\u00e9moire TLC 3D",
-        "bigPicture": "/images/3/in1010897102_small.webP",
+        "bigPicture": {
+            "mini": "/images/3/in1010897102_miniature.webP",
+            "maxi": "/images/3/in1010897102_fulscreen.webP"
+        },
         "pictures": [
             {
-                "url": "/images/3/in1010897102_small.webP"
+                "mini": "/images/3/in1010897102_miniature.webP",
+                "maxi": "/images/3/in1010897102_miniature.webP"
             }
         ],
         "events": {
@@ -114,19 +140,26 @@
         "name": "Samsung S\u00e9rie 870 QVO 1 To",
         "brand": "SAMSUNG",
         "description": "SSD 2.5 - SATA III - Contr\u00f4leur Samsung MKX - Lecture max : 560 Mo/s - Ecriture max : 530 Mo/s - M\u00e9moire QLC 3D",
-        "bigPicture": "/images/4/in2000262802@2x_small.webP",
+        "bigPicture": {
+            "mini": "/images/4/in2000262802@2x_miniature.webP",
+            "maxi": "/images/4/in2000262802@2x_fulscreen.webP"
+        },
         "pictures": [
             {
-                "url": "/images/4/02_small.webP"
+                "mini": "/images/4/02_miniature.webP",
+                "maxi": "/images/4/02_miniature.webP"
             },
             {
-                "url": "/images/4/03_small.webP"
+                "mini": "/images/4/03_miniature.webP",
+                "maxi": "/images/4/03_miniature.webP"
             },
             {
-                "url": "/images/4/04_small.webP"
+                "mini": "/images/4/04_miniature.webP",
+                "maxi": "/images/4/04_miniature.webP"
             },
             {
-                "url": "/images/4/05_small.webP"
+                "mini": "/images/4/05_miniature.webP",
+                "maxi": "/images/4/05_miniature.webP"
             }
         ],
         "events": {
@@ -143,10 +176,14 @@
         "name": "Kingston A2000 1 To",
         "brand": "KINGSTON",
         "description": "SSD M.2 - PCI-Express 3.0 NVMe - Lecture max : 2200 Mo/s - Ecriture max : 2200 Mo/s - M\u00e9moire TLC 3D",
-        "bigPicture": "/images/5/in1101774902@2x_small.webP",
+        "bigPicture": {
+            "mini": "/images/5/in1101774902@2x_miniature.webP",
+            "maxi": "/images/5/in1101774902@2x_fulscreen.webP"
+        },
         "pictures": [
             {
-                "url": "/images/5/02_small.webP"
+                "mini": "/images/5/02_miniature.webP",
+                "maxi": "/images/5/02_miniature.webP"
             }
         ],
         "events": {
@@ -163,13 +200,18 @@
         "name": "Razer Ornata V2 (AZERTY)",
         "brand": "RAZER",
         "description": "Clavier Gamer - R\u00e9tro\u00e9clairage 16.8 millions de couleurs - Anti-ghosting",
-        "bigPicture": "/images/6/in2000534302@2x_small.webP",
+        "bigPicture": {
+            "mini": "/images/6/in2000534302@2x_miniature.webP",
+            "maxi": "/images/6/in2000534302@2x_fulscreen.webP"
+        },
         "pictures": [
             {
-                "url": "/images/6/ov3_small.webP"
+                "mini": "/images/6/ov3_miniature.webP",
+                "maxi": "/images/6/ov3_miniature.webP"
             },
             {
-                "url": "/images/6/ov4_small.webP"
+                "mini": "/images/6/ov4_miniature.webP",
+                "maxi": "/images/6/ov4_miniature.webP"
             }
         ],
         "events": {
@@ -186,19 +228,26 @@
         "name": "Corsair K55 RGB PRO (AZERTY)",
         "brand": "CORSAIR",
         "description": "Clavier Gamer - R\u00e9tro\u00e9clairage 16.8M de couleurs - Anti-ghosting",
-        "bigPicture": "/images/7/in2000795102@2x_small.webP",
+        "bigPicture": {
+            "mini": "/images/7/in2000795102@2x_miniature.webP",
+            "maxi": "/images/7/in2000795102@2x_fulscreen.webP"
+        },
         "pictures": [
             {
-                "url": "/images/7/r02_small.webP"
+                "mini": "/images/7/r02_miniature.webP",
+                "maxi": "/images/7/r02_miniature.webP"
             },
             {
-                "url": "/images/7/r04_small.webP"
+                "mini": "/images/7/r04_miniature.webP",
+                "maxi": "/images/7/r04_miniature.webP"
             },
             {
-                "url": "/images/7/r05_small.webP"
+                "mini": "/images/7/r05_miniature.webP",
+                "maxi": "/images/7/r05_miniature.webP"
             },
             {
-                "url": "/images/7/r06_small.webP"
+                "mini": "/images/7/r06_miniature.webP",
+                "maxi": "/images/7/r06_miniature.webP"
             }
         ],
         "events": {
@@ -215,10 +264,14 @@
         "name": "Logitech G512 Carbon (Switch GX Brown) (AZERTY)",
         "brand": "LOGITECH",
         "description": "Clavier Gamer m\u00e9canique - R\u00e9tro\u00e9clairage RGB - Anti-ghosting - Switches GX Brown",
-        "bigPicture": "/images/8/in2000499502@2x_small.webP",
+        "bigPicture": {
+            "mini": "/images/8/in2000499502@2x_miniature.webP",
+            "maxi": "/images/8/in2000499502@2x_fulscreen.webP"
+        },
         "pictures": [
             {
-                "url": "/images/8/l2_small.webP"
+                "mini": "/images/8/l2_miniature.webP",
+                "maxi": "/images/8/l2_miniature.webP"
             }
         ],
         "events": {
@@ -235,19 +288,26 @@
         "name": "Razer Naga Pro",
         "brand": "RAZER",
         "description": "Souris Gamer optique - R\u00e9solution ajustable jusqu'\u00e0 20 000 dpi - jusqu'\u00e0 20 boutons programmables - Sans fil",
-        "bigPicture": "/images/9/in2000464502@2x_small.webP",
+        "bigPicture": {
+            "mini": "/images/9/in2000464502@2x_miniature.webP",
+            "maxi": "/images/9/in2000464502@2x_fulscreen.webP"
+        },
         "pictures": [
             {
-                "url": "/images/9/np2_small.webP"
+                "mini": "/images/9/np2_miniature.webP",
+                "maxi": "/images/9/np2_miniature.webP"
             },
             {
-                "url": "/images/9/np3_small.webP"
+                "mini": "/images/9/np3_miniature.webP",
+                "maxi": "/images/9/np3_miniature.webP"
             },
             {
-                "url": "/images/9/np4_small.webP"
+                "mini": "/images/9/np4_miniature.webP",
+                "maxi": "/images/9/np4_miniature.webP"
             },
             {
-                "url": "/images/9/np5_small.webP"
+                "mini": "/images/9/np5_miniature.webP",
+                "maxi": "/images/9/np5_miniature.webP"
             }
         ],
         "events": {
@@ -264,19 +324,26 @@
         "name": "Cooler Master M711",
         "brand": "COOLER MASTER",
         "description": "Souris Gamer optique - R\u00e9solution ajustable 16000 DPI - RGB - 6 boutons programmables - 60 grammes",
-        "bigPicture": "/images/10/in2000124902@2x_small.webP",
+        "bigPicture": {
+            "mini": "/images/10/in2000124902@2x_miniature.webP",
+            "maxi": "/images/10/in2000124902@2x_fulscreen.webP"
+        },
         "pictures": [
             {
-                "url": "/images/10/m2_small.webP"
+                "mini": "/images/10/m2_miniature.webP",
+                "maxi": "/images/10/m2_miniature.webP"
             },
             {
-                "url": "/images/10/m3_small.webP"
+                "mini": "/images/10/m3_miniature.webP",
+                "maxi": "/images/10/m3_miniature.webP"
             },
             {
-                "url": "/images/10/m4_small.webP"
+                "mini": "/images/10/m4_miniature.webP",
+                "maxi": "/images/10/m4_miniature.webP"
             },
             {
-                "url": "/images/10/m5_small.webP"
+                "mini": "/images/10/m5_miniature.webP",
+                "maxi": "/images/10/m5_miniature.webP"
             }
         ],
         "events": {
@@ -293,19 +360,26 @@
         "name": "Corsair Harpoon RGB PRO",
         "brand": "CORSAIR",
         "description": "Souris Gamer optique - R\u00e9solution ajustable jusqu'\u00e0 12 000 dpi - 6 boutons programmables",
-        "bigPicture": "/images/11/in1101709102@2x_small.webP",
+        "bigPicture": {
+            "mini": "/images/11/in1101709102@2x_miniature.webP",
+            "maxi": "/images/11/in1101709102@2x_fulscreen.webP"
+        },
         "pictures": [
             {
-                "url": "/images/11/02_small.webP"
+                "mini": "/images/11/02_miniature.webP",
+                "maxi": "/images/11/02_miniature.webP"
             },
             {
-                "url": "/images/11/03_small.webP"
+                "mini": "/images/11/03_miniature.webP",
+                "maxi": "/images/11/03_miniature.webP"
             },
             {
-                "url": "/images/11/04_small.webP"
+                "mini": "/images/11/04_miniature.webP",
+                "maxi": "/images/11/04_miniature.webP"
             },
             {
-                "url": "/images/11/05_small.webP"
+                "mini": "/images/11/05_miniature.webP",
+                "maxi": "/images/11/05_miniature.webP"
             }
         ],
         "events": {
@@ -322,19 +396,26 @@
         "name": "AKRacing Core EX - Noir / Rouge",
         "brand": "AKRACING",
         "description": "Fauteuil Gamer - Tissu - Accoudoirs 3D r\u00e9glables - Assise inclinable - Poids support\u00e9 150 Kg",
-        "bigPicture": "/images/12/in1101709102@2x_small.webP",
+        "bigPicture": {
+            "mini": "/images/12/in1101709102@2x_miniature.webP",
+            "maxi": "/images/12/in1101709102@2x_fulscreen.webP"
+        },
         "pictures": [
             {
-                "url": "/images/12/r01_small.webP"
+                "mini": "/images/12/r01_miniature.webP",
+                "maxi": "/images/12/r01_miniature.webP"
             },
             {
-                "url": "/images/12/r02_small.webP"
+                "mini": "/images/12/r02_miniature.webP",
+                "maxi": "/images/12/r02_miniature.webP"
             },
             {
-                "url": "/images/12/r03_small.webP"
+                "mini": "/images/12/r03_miniature.webP",
+                "maxi": "/images/12/r03_miniature.webP"
             },
             {
-                "url": "/images/12/r04_small.webP"
+                "mini": "/images/12/r04_miniature.webP",
+                "maxi": "/images/12/r04_miniature.webP"
             }
         ],
         "events": {
@@ -351,13 +432,18 @@
         "name": "Noblechairs HERO - Noir / Or",
         "brand": "NOBLECHAIRS",
         "description": "Fauteuil Gamer - Simili Cuir - Accoudoirs 4D r\u00e9glables - Assise inclinable - Poids support\u00e9 150 Kg",
-        "bigPicture": "/images/13/in1011309602@2x_small.webP",
+        "bigPicture": {
+            "mini": "/images/13/in1011309602@2x_miniature.webP",
+            "maxi": "/images/13/in1011309602@2x_fulscreen.webP"
+        },
         "pictures": [
             {
-                "url": "/images/13/r01_small.webP"
+                "mini": "/images/13/r01_miniature.webP",
+                "maxi": "/images/13/r01_miniature.webP"
             },
             {
-                "url": "/images/13/r02_small.webP"
+                "mini": "/images/13/r02_miniature.webP",
+                "maxi": "/images/13/r02_miniature.webP"
             }
         ],
         "events": {
@@ -374,19 +460,26 @@
         "name": "DXRacer Formula F08 - Noir",
         "brand": "DXRACER",
         "description": "Fauteuil Gamer - Simili-Cuir - Accoudoirs 3D r\u00e9glables - Poids support\u00e9 150 kg",
-        "bigPicture": "/images/14/in1010983502@2x_small.webP",
+        "bigPicture": {
+            "mini": "/images/14/in1010983502@2x_miniature.webP",
+            "maxi": "/images/14/in1010983502@2x_fulscreen.webP"
+        },
         "pictures": [
             {
-                "url": "/images/14/r01_small.webP"
+                "mini": "/images/14/r01_miniature.webP",
+                "maxi": "/images/14/r01_miniature.webP"
             },
             {
-                "url": "/images/14/r02_small.webP"
+                "mini": "/images/14/r02_miniature.webP",
+                "maxi": "/images/14/r02_miniature.webP"
             },
             {
-                "url": "/images/14/r03_small.webP"
+                "mini": "/images/14/r03_miniature.webP",
+                "maxi": "/images/14/r03_miniature.webP"
             },
             {
-                "url": "/images/14/r04_small.webP"
+                "mini": "/images/14/r04_miniature.webP",
+                "maxi": "/images/14/r04_miniature.webP"
             }
         ],
         "events": {
@@ -403,16 +496,22 @@
         "name": "Asus VG248QG Adaptive Sync",
         "brand": "ASUS",
         "description": "Moniteur 24 TN 165 Hz - Full HD - 0.5 ms - DisplayPort / HDMI / DVI - Pied r\u00e9glable + Rotation - HP int\u00e9gr\u00e9s - Bords fins - Compatible G-Sync + 15\u20ac rembours\u00e9s par Asus !",
-        "bigPicture": "/images/15/in1102065502@2x_small.webP",
+        "bigPicture": {
+            "mini": "/images/15/in1102065502@2x_miniature.webP",
+            "maxi": "/images/15/in1102065502@2x_fulscreen.webP"
+        },
         "pictures": [
             {
-                "url": "/images/15/02b_small.webP"
+                "mini": "/images/15/02b_miniature.webP",
+                "maxi": "/images/15/02b_miniature.webP"
             },
             {
-                "url": "/images/15/03b_small.webP"
+                "mini": "/images/15/03b_miniature.webP",
+                "maxi": "/images/15/03b_miniature.webP"
             },
             {
-                "url": "/images/15/04b_small.webP"
+                "mini": "/images/15/04b_miniature.webP",
+                "maxi": "/images/15/04b_miniature.webP"
             }
         ],
         "events": {
@@ -429,13 +528,18 @@
         "name": "Acer Nitro VG270UPbmiipx FreeSync",
         "brand": "ACER",
         "description": "Moniteur 27 IPS LED 144 Hz - 2560 x 1440 px (QHD) - 1 ms - DisplayPort / HDMI (x2) - HP int\u00e9gr\u00e9s - Bords extra-fins",
-        "bigPicture": "/images/16/in1011462502@2x_small.webP",
+        "bigPicture": {
+            "mini": "/images/16/in1011462502@2x_miniature.webP",
+            "maxi": "/images/16/in1011462502@2x_fulscreen.webP"
+        },
         "pictures": [
             {
-                "url": "/images/16/02_small.webP"
+                "mini": "/images/16/02_miniature.webP",
+                "maxi": "/images/16/02_miniature.webP"
             },
             {
-                "url": "/images/16/03_small.webP"
+                "mini": "/images/16/03_miniature.webP",
+                "maxi": "/images/16/03_miniature.webP"
             }
         ],
         "events": {
@@ -452,19 +556,26 @@
         "name": "AOC 24B2XH",
         "brand": "AOC",
         "description": "Moniteur 23.8 IPS 75 Hz - Full HD - 7 ms - HDMI / VGA - bords fin",
-        "bigPicture": "/images/17/in2000268602@2x_small.webP",
+        "bigPicture": {
+            "mini": "/images/17/in2000268602@2x_miniature.webP",
+            "maxi": "/images/17/in2000268602@2x_fulscreen.webP"
+        },
         "pictures": [
             {
-                "url": "/images/17/a2_small.webP"
+                "mini": "/images/17/a2_miniature.webP",
+                "maxi": "/images/17/a2_miniature.webP"
             },
             {
-                "url": "/images/17/a3_small.webP"
+                "mini": "/images/17/a3_miniature.webP",
+                "maxi": "/images/17/a3_miniature.webP"
             },
             {
-                "url": "/images/17/a4_small.webP"
+                "mini": "/images/17/a4_miniature.webP",
+                "maxi": "/images/17/a4_miniature.webP"
             },
             {
-                "url": "/images/17/a5_small.webP"
+                "mini": "/images/17/a5_miniature.webP",
+                "maxi": "/images/17/a5_miniature.webP"
             }
         ],
         "events": {
@@ -481,13 +592,18 @@
         "name": "Logitech G PRO X",
         "brand": "LOGITECH",
         "description": "Casque-micro gamer 2.0 - PS4 / Xbox One / PC - USB ou 1 x Jack 3.5 mm - Carte Son externe",
-        "bigPicture": "/images/18/in1102010302@2x_small.webP",
+        "bigPicture": {
+            "mini": "/images/18/in1102010302@2x_miniature.webP",
+            "maxi": "/images/18/in1102010302@2x_fulscreen.webP"
+        },
         "pictures": [
             {
-                "url": "/images/18/r01_small.webP"
+                "mini": "/images/18/r01_miniature.webP",
+                "maxi": "/images/18/r01_miniature.webP"
             },
             {
-                "url": "/images/18/r02_small.webP"
+                "mini": "/images/18/r02_miniature.webP",
+                "maxi": "/images/18/r02_miniature.webP"
             }
         ],
         "events": {
@@ -504,19 +620,26 @@
         "name": "SteelSeries Arctis 7 Blanc (2019 Edition)",
         "brand": "STEELSERIES",
         "description": "Casque-micro gamer sans fil 7.1 - PC / Mac / PS4 - USB ou 1 x Jack 3.5 mm - R\u00e9tro\u00e9clairage RGB 16.8M de couleurs",
-        "bigPicture": "/images/19/in1011437502@2x_small.webP",
+        "bigPicture": {
+            "mini": "/images/19/in1011437502@2x_miniature.webP",
+            "maxi": "/images/19/in1011437502@2x_fulscreen.webP"
+        },
         "pictures": [
             {
-                "url": "/images/19/02_small.webP"
+                "mini": "/images/19/02_miniature.webP",
+                "maxi": "/images/19/02_miniature.webP"
             },
             {
-                "url": "/images/19/03_small.webP"
+                "mini": "/images/19/03_miniature.webP",
+                "maxi": "/images/19/03_miniature.webP"
             },
             {
-                "url": "/images/19/04_small.webP"
+                "mini": "/images/19/04_miniature.webP",
+                "maxi": "/images/19/04_miniature.webP"
             },
             {
-                "url": "/images/19/05_small.webP"
+                "mini": "/images/19/05_miniature.webP",
+                "maxi": "/images/19/05_miniature.webP"
             }
         ],
         "events": {
@@ -533,13 +656,18 @@
         "name": "Razer Kraken - Mercury",
         "brand": "RAZER KRAKEN",
         "description": "Casque-micro Gamer - PC / Mac / PS4 / Xbox One - 1 x jack 3.5mm",
-        "bigPicture": "/images/20/in1011437502@2x_small.webP",
+        "bigPicture": {
+            "mini": "/images/20/in1011437502@2x_miniature.webP",
+            "maxi": "/images/20/in1011437502@2x_fulscreen.webP"
+        },
         "pictures": [
             {
-                "url": "/images/20/kraken2_small.webP"
+                "mini": "/images/20/kraken2_miniature.webP",
+                "maxi": "/images/20/kraken2_miniature.webP"
             },
             {
-                "url": "/images/20/kraken3_small.webP"
+                "mini": "/images/20/kraken3_miniature.webP",
+                "maxi": "/images/20/kraken3_miniature.webP"
             }
         ],
         "events": {

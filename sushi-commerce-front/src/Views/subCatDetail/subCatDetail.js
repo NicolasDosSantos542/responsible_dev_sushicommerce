@@ -109,7 +109,7 @@ export default class SubCatDetail extends Component {
                     <Link className="subCatDetail_Link" to={"/produit/" + item._id} key={item._id}>
                         <div className="row bg-white m-2 mt-3 p-2 rounded-3 subCatDetail_item">
                             <div className="col-2">
-                                <img src={item.bigPicture} className="img-fluid" style={{"width": "70%"}} alt=""/>
+                                <img src={item.bigPicture.mini} className="img-fluid" style={{"width": "70%"}} alt=""/>
                             </div>
                             <div className="col-8 pt-3">
                                 <div className="row">{this.displayBadgeProduct(item.events)}</div>

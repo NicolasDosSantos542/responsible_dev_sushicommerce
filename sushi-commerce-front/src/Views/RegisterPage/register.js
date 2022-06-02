@@ -1,7 +1,7 @@
 import React, {Component, Fragment} from 'react';
 import {Link, Redirect} from "react-router-dom";
 import './register.css';
-import logoBigBlack from "../../Assets/logo-big-white.png";
+import logoBigBlack from "../../Assets/logo-big-white.webP";
 
 const Environement = require('../../Environment/environment')
 const Env = Environement.environement
