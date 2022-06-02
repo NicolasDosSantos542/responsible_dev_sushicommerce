@@ -26,7 +26,7 @@ class MyAccount extends Component {
     }
 
     componentDidMount() {
-        let url = "https://localhost:4244/user/";
+        let url = "http://localhost:4244/user/";
         let request = {
             method: 'GET',
             headers: {

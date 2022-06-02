@@ -63,13 +63,13 @@ class DeleteAccount extends Component {
                                 <span className="text-danger"> définitivement ?</span></h5>
                             <div className="row justify-content-center mt-3">
                                 <div className="col-3 text-center">
-                                    <button type="submit" className="btn btn-outline-success btn-lg font_lobster mt-4 col-3"
+                                    <button type="submit" className="btn btn-outline-success btn-lg  mt-4 col-3"
                                             onClick={this.areYouSure}>
                                         Non
                                     </button>
                                 </div>
                                 <div className="col-3 text-center">
-                                    <button type="submit" className="btn btn-outline-danger btn-lg font_lobster danger mt-4 col-3"
+                                    <button type="submit" className="btn btn-outline-danger btn-lg  danger mt-4 col-3"
                                             onClick={this.handleSubmit}>
                                         Oui
                                     </button>
@@ -87,7 +87,7 @@ class DeleteAccount extends Component {
                         <h5 className="text-center profil_title">Supprimer mon compte</h5>
                         <div className="row justify-content-center mt-3">
                             <div className="col-6 text-center">
-                                <button type="submit" className="btn btn-outline-danger font_lobster fs-5 mt-4 col-5" onClick={this.areYouSure}>
+                                <button type="submit" className="btn btn-outline-danger  fs-5 mt-4 col-5" onClick={this.areYouSure}>
                                     Supprimer
                                 </button>
                             </div>
