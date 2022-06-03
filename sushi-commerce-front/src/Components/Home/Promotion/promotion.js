@@ -87,7 +87,7 @@ export default class Promotion extends Component {
                     <Link className="subCatDetail_Link" to={"/produit/" + item._id} key={item._id}>
                         <div className="row bg-white m-2 mt-3 p-2 rounded-3 subCatDetail_item">
                             <div className="col-2">
-                                <img src={item.bigPicture.mini} className="img-fluid" style={{"width": "70%"}} alt=""/>
+                                <img width="150px" height="150px"src={item.bigPicture.mini} className="img-fluid" alt="produit"/>
                             </div>
                             <div className="col-8 pt-3">
                                 <div className="row">{this.displayBadgeProduct(item.events)}</div>
@@ -113,12 +113,13 @@ export default class Promotion extends Component {
                     <div className="row rounded-3 subCatDetail_item">
                         <div className="row justify-content-center pt-2 pb-2">
                             <div className="col-12">
+                                fhslkfhlkfqhgfqkgfkqhflksqfqkh
                                 {subCat.description}
                             </div>
                         </div>
-                        <div className="col-2">
+                        {/* <div className="col-2">
                             Filtre coming soon
-                        </div>
+                        </div> */}
                         <div className="col-10">
                             {itemsMap}
                         </div>
