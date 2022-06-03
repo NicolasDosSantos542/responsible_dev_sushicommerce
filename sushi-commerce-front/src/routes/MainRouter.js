@@ -1,4 +1,4 @@
-import React, {Component, Fragment, Suspense} from 'react';
+import React, {Component, Suspense, Fragment} from 'react';
 import {Switch, Route, Redirect, BrowserRouter as Router} from "react-router-dom";
 import '../App.css';
 
@@ -16,7 +16,7 @@ import HomePage from "../Views/HomePage/homepage";
 
 import {createBrowserHistory} from "history";
 
-const ViewOneOrder = React.lazy(() => import("../Components/UserAccount/OneOrder/viewOneOrder"));
+const ViewOneOrder = React.lazy(() => import('../Components/UserAccount/OneOrder/viewOneOrder'));
 const ManageOneUserPage = React.lazy(() => import("../Views/Admin/ManageOneUserPage/manageOneUserPage"));
 //multiple product
 const DetailMultipleProductsPage = React.lazy(() => import("../Views/Admin/products/multiple/DetailMultipleProductsPage"));
