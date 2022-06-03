@@ -2,17 +2,8 @@ import React, {Component, Suspense, Fragment} from 'react';
 import {Switch, Route, Redirect, BrowserRouter as Router} from "react-router-dom";
 import '../App.css';
 
-// import Admin from "./Pioche/views/AdminAccount/admin";
-// import Products from "./Pioche/views/Products/products";
-// import ManageUsers from "./Pioche/views/ManageUsers/manageUsers";
-// import ChangeProduct from "./Pioche/views/ChangeProduct/changeProduct";
-// import ManageLabels from "./Pioche/views/ManageLabels/manageLabels";
-
-//import HomePage from "../Views/HomePage/homepage";
 import Navbar from "../Components/Navigation/Navbar/navbar";
 import HomePage from "../Views/HomePage/homepage";
-
-
 
 import {createBrowserHistory} from "history";
 
