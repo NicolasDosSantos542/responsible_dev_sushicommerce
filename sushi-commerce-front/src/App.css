@@ -32,7 +32,7 @@
     background-color: #ff9100;
 }
 .global_fontColor--whiteSmoke {
-    color: #EFEFEF;
+    color: #EFEFEF !important;
 }
 
 /* Bootstrap modification */

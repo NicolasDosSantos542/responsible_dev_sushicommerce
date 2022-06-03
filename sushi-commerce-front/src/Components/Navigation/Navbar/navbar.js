@@ -156,7 +156,7 @@ class Navbar extends Component {
                                                          className="navBar_Image--size" alt=""/> <br/>
                                                     <span className="align-bottom ps-2">M'identifier</span>
                                                 </div>
-                                                <span className="navBar_link--title">M'identifier</span>
+                                                <span className="navBar_link--title text-white">M'identifier</span>
                                             </button>);
                                     } else {
                                         return (
@@ -184,7 +184,7 @@ class Navbar extends Component {
                                         <br/>
                                         <span className="align-bottom">Caddie</span>
                                     </div>
-                                    <span className="navBar_link--title" onClick={this.displayCart.bind(this)}>Mon panier <span
+                                    <span className="navBar_link--title text-white" onClick={this.displayCart.bind(this)}>Mon panier <span
                                         className="badge rounded-pill bg-danger align-top">{this.state.cartSize}</span></span>
                                 </div>
                             </div>
