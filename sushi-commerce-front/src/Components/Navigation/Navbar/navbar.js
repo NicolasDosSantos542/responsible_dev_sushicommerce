@@ -125,7 +125,7 @@ class Navbar extends Component {
                                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                                 aria-expanded="false"
                                 aria-label="Toggle navigation">
-                            <span><img src={process.env.PUBLIC_URL + menuImage} alt="Icone pour dérouler le menu"
+                            <span><img width="50px" height="50px" src={process.env.PUBLIC_URL + menuImage} alt="Icone pour dérouler le menu"
                                        className="navBar_menuIcon"/></span>
                         </button>
                         <div className="collapse navbar-collapse justify-content-evenly" id="navbarSupportedContent">
