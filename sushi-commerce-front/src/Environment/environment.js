@@ -3,6 +3,6 @@
 //     backUser: "http://164.132.229.58:4244/user/"
 // }
 export const environement = {
-    backBase: "http://localhost:4244",
-    backUser: "http://localhost:4244/user/"
+    backBase: "https://localhost:4244",
+    backUser: "https://localhost:4244/user/"
 }

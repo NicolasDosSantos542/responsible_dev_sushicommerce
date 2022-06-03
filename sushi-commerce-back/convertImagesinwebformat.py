@@ -12,9 +12,9 @@ def convertfileToWebP(image):
     im.save(destination, format="webp")
     return destination
  
-imageList = os.listdir("Assets")
+imageList = os.listdir("sushi-commerce-back/alibaba")
 for image in imageList:
-    imagePath="Assets/"+image
+    imagePath="sushi-commerce-back/alibaba/"+image
     convertfileToWebP(imagePath)
     os.remove(imagePath)
 
