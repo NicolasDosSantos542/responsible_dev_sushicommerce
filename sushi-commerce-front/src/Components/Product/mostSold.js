@@ -101,7 +101,7 @@ export default class MostSold extends Component {
         return (
             <Fragment>
                 <div className="row rounded-3 mt-1 mostSold_container">
-                    <div className="global_bgColor--orange rounded-1 text-white ps-2">Meilleur vente
+                    <div className="global_bgColor--orange rounded-1 text-white ps-4">Meilleur vente
                         de {this.state.name}</div>
                     {itemsMap}
                 </div>

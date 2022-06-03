@@ -63,6 +63,7 @@ exports.updateProducts = async (req, res) => {
 exports.getProducts = async (req, res) => {
     try {
         let allUser = await ProductService.allProducts();
+        res.set('Cache-Control', 'public, max-age=87000');//87000 = one day, 31557600 = one year
         res.status(200);
         res.send(allUser);
     } catch (e) {
@@ -77,6 +78,7 @@ exports.getProducts = async (req, res) => {
 exports.getOneProduct = async (req, res) => {
     try {
         let oneProduct = await ProductService.getOneProduct(req.params.id);
+        res.set('Cache-Control', 'public, max-age=87000');//87000 = one day, 31557600 = one year
         if(oneProduct.success === false) {
             res.status(400);
             res.send(oneProduct);

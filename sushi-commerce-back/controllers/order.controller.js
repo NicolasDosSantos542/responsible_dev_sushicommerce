@@ -43,6 +43,7 @@ exports.calculateOrder = async (req, res) => {
 exports.getAllOrder = async (req, res) => {
     try {
         let allOrder = await OrderService.getAllOrder();
+        res.set('Cache-Control', 'public, max-age=87000');//87000 = one day, 31557600 = one year
         res.status(200);
         res.send(allOrder);
     } catch (e) {
@@ -60,6 +61,7 @@ exports.getOneOrder = async (req, res) => {
     try {
         let oneOrder = await OrderService.getOneOrder(req.params);
         if(oneOrder.success) {
+            res.set('Cache-Control', 'public, max-age=87000');//87000 = one day, 31557600 = one year
             res.status(200);
             res.send(oneOrder);
         } else {

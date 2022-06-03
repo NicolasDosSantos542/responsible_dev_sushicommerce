@@ -25,6 +25,13 @@
 ```
 
 # GO TO CONTAINER responsible_dev_sushicommerce-sushi-api-1 in shell (terminal) to have cli command and run
+```list of containers:
+	docker ps
+
+open container's shell: 
+	docker exec -it [ID] /bin/sh
+
+
 ```bash
     node fakers/product.faker.js
 ```

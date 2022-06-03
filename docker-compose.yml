@@ -10,7 +10,7 @@ services:
       - MONGO_INITDB_ROOT_PASSWORD=
       - MONGO_INITDB_DATABASE=Suhi-commerce
     ports:
-      - 27017:27017
+      - 27018:27017
     volumes:
       - db:/data/db
     networks:
@@ -31,7 +31,7 @@ services:
       - DB_USER=
       - DB_PASSWORD=
       - DB_NAME=Suhi-commerce
-      - DB_PORT=27017
+      - DB_PORT=27018
     networks:
       - backend
       - frontend
@@ -43,7 +43,7 @@ services:
       context: sushi-commerce-front
       dockerfile: Dockerfile
     ports:
-      - 80:80
+      - 81:80
       - 443:443
     networks:
       - frontend
