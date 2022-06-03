@@ -14,7 +14,7 @@ const SubCategorySchema = new mongoose.Schema({
         unique: true
     },
     img: {
-        type: String,
+        type: Object,
     },
     description: {
         type: String,

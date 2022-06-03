@@ -89,7 +89,7 @@ link {
     }
     .subCatDetail_item >.col-2
     {
-        display:none;
+        display:block !important;
     }
     .row{
         text-align: center !important;

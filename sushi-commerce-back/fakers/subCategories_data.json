@@ -1,98 +1,146 @@
 [
-  {
-    "category": "Ordinateurs",
-    "name": "Pc portables",
-    "img": "https://www.topachat.com/boutique/img/in/in2000/in20008857/in2000885701.jpg",
-    "description": "des ordinateurs portables"
-  },
-  {
-    "category": "Ordinateurs",
-    "name": "Tablettes",
-    "img": "https://www.topachat.com/boutique/img/in/in2000/in20005844/in2000584401.jpg",
-    "description": "Une tablette tactile un matériel multimédia très compact composé d'une pièce unique."
-  },
-  {
-    "category": "Ordinateurs",
-    "name": "Ordinateurs montés",
-    "img": "https://www.topachat.com/boutique/img/in/in2000/in20008912/in2000891201.jpg",
-    "description": "ordinateur monté, c'est la solution idéale quand on ne sait pas trop comment faire pour en monter un soi-même."
-  },
-  {
-    "category": "Ordinateurs",
-    "name": "accessoires",
-    "img": "https://www.topachat.com/boutique/img/in/in2000/in20005463/in2000546301.jpg",
-    "description": "Ces accessoires, à l'image de la sacoche ordinateur portable, vont très vite devenir indispensables. "
-  },
-  {
-    "category": "Composants",
-    "name": "Processeurs",
-    "img": "https://www.topachat.com/boutique/img/in/in2000/in20008411/in2000841101.jpg",
-    "description": "Le processeur occupe une place centrale dans le fonctionnement de ton PC. Il a pour mission d'exécuter et de traiter les données des programmes."
-  },
-  {
-    "category": "Composants",
-    "name": "Cartes mères",
-    "img": "https://www.topachat.com/images/interface/category/w_/w_cm_1151/w_cm_1151-200x200.jpg",
-    "description": "La carte mère est le composant central de l'ordinateur. Le choix du processeur détermine le choix de la carte mère ou vice-versa. "
-  },
-  {
-    "category": "Composants",
-    "name": "Cartes Graphiques",
-    "img": "https://www.topachat.com/images/interface/category/wg/wgfx_pcie/wgfx_pcie-60x60.jpg",
-    "description": "a carte graphique est le principal composant qui détermine la qualité d'affichage des jeux. Si vous souhaitez utiliser des jeux récents, nous vous conseillons une carte graphique performante."
-  },
-  {
-    "category": "Composants",
-    "name": "Mémoire",
-    "img": "https://www.topachat.com/images/interface/gammes/memoire-pc-60x60.jpg",
-    "description": "La quantité de mémoire présente dans votre ordinateur influe grandement sur sa vitesse. Plus les besoins sont élevés, plus vous aurez besoin de mémoire !"
-  },
-  {
-    "category": "Peripheriques",
-    "name": "Ecrans PC",
-    "img": "https://www.topachat.com/images/interface/category/w_/w_moni/w_moni-60x60.jpg",
-    "description": "Les écrans plats disposent de multiples caractéristiques afin de se plier à vos besoins. Au-delà de la taille, il est important de tenir compte de la dalle en fonction de l'utilisation que vous ferez de votre moniteur."
-  },
-  {
-    "category": "Peripheriques",
-    "name": "Fauteuils",
-    "img": "https://www.topachat.com/images/interface/category/wg/wg_faut/wg_faut-60x60.jpg",
-    "description": "Le fauteuil est le point final de ton setup gaming, c'est lui qui te permettra de rester des heures devant ton pc sur mesure que ce soit pour travailler ou jouer sans craindre l'arrivé du mal de dos."
-  },
-  {
-    "category": "Peripheriques",
-    "name": "Claviers et Souris",
-    "img": "https://www.topachat.com/images/interface/category/w_/w_cla_sou/w_cla_sou-60x60.jpg",
-    "description": "Si vous désirez acquérir un ordinateur de bureau, vous devrez également acheter une souris et un clavier, ces deux appareils électroniques étant indispensables."
-  },
-  {
-    "category": "Peripheriques",
-    "name": "Casques",
-    "img": "https://www.topachat.com/images/interface/category/wx/wx_cas_m/wx_cas_m-60x60.jpg",
-    "description": "Notre sélection de casques s'adapte à tous vos besoins : choisissez un casque Bluetooth sans fil, si vous êtes sportifs, optez pour un casque réducteur de bruit ou laissez-vous simplement tenter par des écouteurs si vous voulez jouer la discrétion."
-  },
-  {
-    "category": "Réseau",
-    "name": "NAS",
-    "img": "https://www.topachat.com/images/interface/category/w_/w_nas/w_nas-60x60.jpg",
-    "description": "Le NAS, dont le sigle est issu de l'anglais et signifie « Network Attached Storageest », est un serveur de fichiers autonomes. Relié à un réseau, il se comporte comme le disque dur d'un ordinateur classique."
-  },
-  {
-    "category": "Réseau",
-    "name": "CPL",
-    "img": "https://www.topachat.com/images/interface/category/wt/wt_cpl/wt_cpl-60x60.jpg",
-    "description": "Indispensable pour évitez les câbles partout dans l'appartement ! Car parfois le Wifi ne passe pas (ou pas stable) alors le CPL devient la solution."
-  },
-  {
-    "category": "Réseau",
-    "name": "Cable réseau",
-    "img": "https://www.topachat.com/images/interface/category/wt/wt_cab/wt_cab-60x60.jpg",
-    "description": "Notre sélection si vous recherchez un câble Ethernet pour connecter votre ordinateur à votre box ou à votre réseau local."
-  },
-  {
-    "category": "Réseau",
-    "name": "Routeur",
-    "img": "https://www.topachat.com/images/interface/category/wt/wt_rou/wt_rou-60x60.jpg",
-    "description": "Découvrez toute la gamme de modem / routeur Wi-Fi."
-  }
+    {
+        "category": "Ordinateurs",
+        "name": "Pc portables",
+        "img": {
+            "mini": "/subCatImages/0/in2000885701_miniature.webP",
+            "maxi": "/subCatImages/0/in2000885701_fulscreen.webP"
+        },
+        "description": "des ordinateurs portables"
+    },
+    {
+        "category": "Ordinateurs",
+        "name": "Tablettes",
+        "img": {
+            "mini": "/subCatImages/1/in2000584401_miniature.webP",
+            "maxi": "/subCatImages/1/in2000584401_fulscreen.webP"
+        },
+        "description": "Une tablette tactile un mat\u00e9riel multim\u00e9dia tr\u00e8s compact compos\u00e9 d'une pi\u00e8ce unique."
+    },
+    {
+        "category": "Ordinateurs",
+        "name": "Ordinateurs mont\u00e9s",
+        "img": {
+            "mini": "/subCatImages/2/in2000891201_miniature.webP",
+            "maxi": "/subCatImages/2/in2000891201_fulscreen.webP"
+        },
+        "description": "ordinateur mont\u00e9, c'est la solution id\u00e9ale quand on ne sait pas trop comment faire pour en monter un soi-m\u00eame."
+    },
+    {
+        "category": "Ordinateurs",
+        "name": "accessoires",
+        "img": {
+            "mini": "/subCatImages/3/in2000546301_miniature.webP",
+            "maxi": "/subCatImages/3/in2000546301_fulscreen.webP"
+        },
+        "description": "Ces accessoires, \u00e0 l'image de la sacoche ordinateur portable, vont tr\u00e8s vite devenir indispensables. "
+    },
+    {
+        "category": "Composants",
+        "name": "Processeurs",
+        "img": {
+            "mini": "/subCatImages/4/in2000841101_miniature.webP",
+            "maxi": "/subCatImages/4/in2000841101_fulscreen.webP"
+        },
+        "description": "Le processeur occupe une place centrale dans le fonctionnement de ton PC. Il a pour mission d'ex\u00e9cuter et de traiter les donn\u00e9es des programmes."
+    },
+    {
+        "category": "Composants",
+        "name": "Cartes m\u00e8res",
+        "img": {
+            "mini": "/subCatImages/5/w_cm_1151-200x200_miniature.webP",
+            "maxi": "/subCatImages/5/w_cm_1151-200x200_fulscreen.webP"
+        },
+        "description": "La carte m\u00e8re est le composant central de l'ordinateur. Le choix du processeur d\u00e9termine le choix de la carte m\u00e8re ou vice-versa. "
+    },
+    {
+        "category": "Composants",
+        "name": "Cartes Graphiques",
+        "img": {
+            "mini": "/subCatImages/6/wgfx_pcie-60x60_miniature.webP",
+            "maxi": "/subCatImages/6/wgfx_pcie-60x60_fulscreen.webP"
+        },
+        "description": "a carte graphique est le principal composant qui d\u00e9termine la qualit\u00e9 d'affichage des jeux. Si vous souhaitez utiliser des jeux r\u00e9cents, nous vous conseillons une carte graphique performante."
+    },
+    {
+        "category": "Composants",
+        "name": "M\u00e9moire",
+        "img": {
+            "mini": "/subCatImages/7/memoire-pc-60x60_miniature.webP",
+            "maxi": "/subCatImages/7/memoire-pc-60x60_fulscreen.webP"
+        },
+        "description": "La quantit\u00e9 de m\u00e9moire pr\u00e9sente dans votre ordinateur influe grandement sur sa vitesse. Plus les besoins sont \u00e9lev\u00e9s, plus vous aurez besoin de m\u00e9moire !"
+    },
+    {
+        "category": "Peripheriques",
+        "name": "Ecrans PC",
+        "img": {
+            "mini": "/subCatImages/8/w_moni-60x60_miniature.webP",
+            "maxi": "/subCatImages/8/w_moni-60x60_fulscreen.webP"
+        },
+        "description": "Les \u00e9crans plats disposent de multiples caract\u00e9ristiques afin de se plier \u00e0 vos besoins. Au-del\u00e0 de la taille, il est important de tenir compte de la dalle en fonction de l'utilisation que vous ferez de votre moniteur."
+    },
+    {
+        "category": "Peripheriques",
+        "name": "Fauteuils",
+        "img": {
+            "mini": "/subCatImages/9/wg_faut-60x60_miniature.webP",
+            "maxi": "/subCatImages/9/wg_faut-60x60_fulscreen.webP"
+        },
+        "description": "Le fauteuil est le point final de ton setup gaming, c'est lui qui te permettra de rester des heures devant ton pc sur mesure que ce soit pour travailler ou jouer sans craindre l'arriv\u00e9 du mal de dos."
+    },
+    {
+        "category": "Peripheriques",
+        "name": "Claviers et Souris",
+        "img": {
+            "mini": "/subCatImages/10/w_cla_sou-60x60_miniature.webP",
+            "maxi": "/subCatImages/10/w_cla_sou-60x60_fulscreen.webP"
+        },
+        "description": "Si vous d\u00e9sirez acqu\u00e9rir un ordinateur de bureau, vous devrez \u00e9galement acheter une souris et un clavier, ces deux appareils \u00e9lectroniques \u00e9tant indispensables."
+    },
+    {
+        "category": "Peripheriques",
+        "name": "Casques",
+        "img": {
+            "mini": "/subCatImages/11/wx_cas_m-60x60_miniature.webP",
+            "maxi": "/subCatImages/11/wx_cas_m-60x60_fulscreen.webP"
+        },
+        "description": "Notre s\u00e9lection de casques s'adapte \u00e0 tous vos besoins : choisissez un casque Bluetooth sans fil, si vous \u00eates sportifs, optez pour un casque r\u00e9ducteur de bruit ou laissez-vous simplement tenter par des \u00e9couteurs si vous voulez jouer la discr\u00e9tion."
+    },
+    {
+        "category": "R\u00e9seau",
+        "name": "NAS",
+        "img": {
+            "mini": "/subCatImages/12/w_nas-60x60_miniature.webP",
+            "maxi": "/subCatImages/12/w_nas-60x60_fulscreen.webP"
+        },
+        "description": "Le NAS, dont le sigle est issu de l'anglais et signifie \u00ab Network Attached Storageest \u00bb, est un serveur de fichiers autonomes. Reli\u00e9 \u00e0 un r\u00e9seau, il se comporte comme le disque dur d'un ordinateur classique."
+    },
+    {
+        "category": "R\u00e9seau",
+        "name": "CPL",
+        "img": {
+            "mini": "/subCatImages/13/wt_cpl-60x60_miniature.webP",
+            "maxi": "/subCatImages/13/wt_cpl-60x60_fulscreen.webP"
+        },
+        "description": "Indispensable pour \u00e9vitez les c\u00e2bles partout dans l'appartement ! Car parfois le Wifi ne passe pas (ou pas stable) alors le CPL devient la solution."
+    },
+    {
+        "category": "R\u00e9seau",
+        "name": "Cable r\u00e9seau",
+        "img": {
+            "mini": "/subCatImages/14/wt_cab-60x60_miniature.webP",
+            "maxi": "/subCatImages/14/wt_cab-60x60_fulscreen.webP"
+        },
+        "description": "Notre s\u00e9lection si vous recherchez un c\u00e2ble Ethernet pour connecter votre ordinateur \u00e0 votre box ou \u00e0 votre r\u00e9seau local."
+    },
+    {
+        "category": "R\u00e9seau",
+        "name": "Routeur",
+        "img": {
+            "mini": "/subCatImages/15/wt_rou-60x60_miniature.webP",
+            "maxi": "/subCatImages/15/wt_rou-60x60_fulscreen.webP"
+        },
+        "description": "D\u00e9couvrez toute la gamme de modem / routeur Wi-Fi."
+    }
 ]
