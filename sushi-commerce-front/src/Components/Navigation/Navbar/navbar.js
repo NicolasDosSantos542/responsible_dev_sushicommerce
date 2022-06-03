@@ -117,8 +117,10 @@ class Navbar extends Component {
                 <nav
                     className="navbar navbar-expand-xl global_bgColor--charcoal global_fontColor--whiteSmoke navBar_mainContainer">
                     <div className="container-fluid">
-                        <Link to="/" className="navbar-brand p-0"><img src={process.env.PUBLIC_URL + logoBigWhite}
-                                                                       className="navBar_logo" alt=""/></Link>
+                        <Link to="/" className="navbar-brand p-0">
+                            <img width="250px" height="50px" src={process.env.PUBLIC_URL + logoBigWhite}
+                                                                       className="navBar_logo" alt="Logo de let's shop"/>
+                        </Link>
                         <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                                 aria-expanded="false"

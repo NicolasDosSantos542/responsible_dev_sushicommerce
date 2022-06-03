@@ -152,7 +152,7 @@ class Register extends Component {
             <Fragment>
                 <div className="Register_page d-flex row font_cabin justify-content-center m-0">
                     <div className="col-6 align-self-center text-center">
-                        <Link to="/" className="navbar-brand p-0"><img src={process.env.PUBLIC_URL + logoBigBlack} alt="Logo de let's shop"/></Link>
+                        <Link to="/" className="navbar-brand p-0"><img width="50px" height="50px" src={process.env.PUBLIC_URL + logoBigBlack} alt="Logo de let's shop"/></Link>
                         <p className="text-white global_sentence">Le matériel qui s'adapte à vous</p>
                     </div>
                     <div className="col-6 text-white">

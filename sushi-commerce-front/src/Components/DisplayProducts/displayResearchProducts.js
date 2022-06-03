@@ -12,7 +12,7 @@ export default class DisplayResearchProducts extends Component {
     }
 
     componentDidMount() {
-        const url = "https://localhost:4244/product/search/" + this.state.research;
+        const url = "http://localhost:4244/product/search/" + this.state.research;
         const requestOptions = {
             method: 'GET',
             headers: {"Content-Type": 'application/json'},
