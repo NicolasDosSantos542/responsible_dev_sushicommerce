@@ -100,6 +100,7 @@ export default class MostSold extends Component {
         }
         return (
             <Fragment>
+                {/* Voir probleme de cls ici */}
                 <div className="row rounded-3 mt-1 mostSold_container">
                     <div className="global_bgColor--orange rounded-1 text-white ps-4">Meilleur vente
                         de {this.state.name}</div>

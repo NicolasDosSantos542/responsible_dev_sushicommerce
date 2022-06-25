@@ -20,3 +20,11 @@
     transition: 300ms ease-in-out;
     color: #444343;
 }
+
+
+
+@media(max-height: 768px) {
+    .cls-stop {
+        min-height: 772px;
+    }
+}

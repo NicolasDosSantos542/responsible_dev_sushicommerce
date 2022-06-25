@@ -76,15 +76,26 @@
 link {
     text-decoration: none !important;
 }
+
+.bef-container {
+    overflow: hidden;;
+    min-height: 100vh;
+    width: 100vw;
+    /*display: block;
+    content: '';
+    min-height: 24px;*/
+}
+
 /* images */
 
-@media (max-width: 768px)  { 
+@media (max-width: 768px)  {
      .img-fluid,
     .img-fluid{
         width:150px !important;
         height:150px !important;
-    } 
+    }
     .mostSold_container {
+        min-height: 90vh;
         display:block;
     }
     .subCatDetail_item >.col-2

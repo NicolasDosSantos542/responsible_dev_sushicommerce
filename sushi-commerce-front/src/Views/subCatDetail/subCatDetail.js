@@ -100,6 +100,7 @@ export default class SubCatDetail extends Component {
     }
 
     render() {
+
         let itemsMap = [];
         let subCat = "";
         let Cat = "";
@@ -122,8 +123,10 @@ export default class SubCatDetail extends Component {
                         </div>
                     </Link>
                 )
-            })
+            }
+            )
         }
+
         if(this.state.descCat) {
             subCat = this.state.descCat
             if(this.state.descCat.category) {
@@ -131,38 +134,38 @@ export default class SubCatDetail extends Component {
             }
         }
         return (
-            <Fragment>
-                <div className="container-fluid p-4">
-                    <div className="row rounded-3 subCatDetail_item">
-                        <div className="row m-0 p-2 subCatDetail_breadcrumb bg-light">
-                            <div aria-label="breadcrumb">
-                                <ol className="breadcrumb m-0">
-                                    <li className="breadcrumb-item"><Link className="subCatDetail_LinkBreadcrumb" to="/">Let's shop</Link></li>
-                                    <li className="breadcrumb-item">{Cat.name}</li>
-                                    <li className="breadcrumb-item active" aria-current="page">{subCat.name}</li>
-                                </ol>
+                <div className="bef-container">
+                    <div className="container-fluid">
+                        <div className="row rounded-3 subCatDetail_item">
+                            <div className="row m-0 p-2 subCatDetail_breadcrumb bg-light">
+                                <div aria-label="breadcrumb">
+                                    <ol className="breadcrumb m-0">
+                                        <li className="breadcrumb-item"><Link className="subCatDetail_LinkBreadcrumb" to="/">Let's shop</Link></li>
+                                        <li className="breadcrumb-item">{Cat.name}</li>
+                                        <li className="breadcrumb-item active" aria-current="page">{subCat.name}</li>
+                                    </ol>
+                                </div>
                             </div>
-                        </div>
-                        <div className="row justify-content-center pt-2 pb-2">
-                            <div className="col-12">
-                                {subCat.description}
+                            <div className="row justify-content-center pt-2 pb-2">
+                                <div className="col-12">
+                                    {subCat.description}
+                                </div>
                             </div>
-                        </div>
-                        <div className="row justify-content-center m-0">
-                            <div className="col-12">
+                            <div className="row justify-content-center m-0">
+                                <div className="col-12">
 
-                                <MostSold data={{name: subCat.name, id: subCat._id}}/>
+                                    <MostSold data={{name: subCat.name, id: subCat._id}}/>
+                                </div>
                             </div>
-                        </div>
-                        <div className="col-2">
-                            Filtre coming soon
-                        </div>
-                        <div className="col-10">
-                            {itemsMap}
+                            <div className="col-2">
+                                Filtre coming soon
+                            </div>
+                            <div className="col-10">
+                                {itemsMap}
+                            </div>
                         </div>
                     </div>
                 </div>
-            </Fragment>
         )
     }
 }

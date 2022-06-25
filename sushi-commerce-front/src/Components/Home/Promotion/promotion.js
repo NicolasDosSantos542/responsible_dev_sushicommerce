@@ -108,12 +108,11 @@ export default class Promotion extends Component {
             }
         }
         return (
-            <Fragment>
-                <div className="container-fluid p-4">
+            <div className="bef-container">
+                <div className="container-fluid">
                     <div className="row rounded-3 subCatDetail_item">
                         <div className="row justify-content-center pt-2 pb-2">
                             <div className="col-12">
-                                fhslkfhlkfqhgfqkgfkqhflksqfqkh
                                 {subCat.description}
                             </div>
                         </div>
@@ -125,7 +124,7 @@ export default class Promotion extends Component {
                         </div>
                     </div>
                 </div>
-            </Fragment>
+            </div>
         )
     }
 }

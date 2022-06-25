@@ -18,6 +18,7 @@
     color: white;
 }
 .navBar_logo {
+    height: 64px;
     width: 200px
 }
 .navBar_Image--size{
